@@ -11,7 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-
+   introduction
+   PCA_analysis
+   python_faq
+   linux_faq
 
 Indices and tables
 ==================

@@ -6,7 +6,7 @@ Python FAQ
 
 .. TEMPLATE: `link <link>`_
 
-Click on links in headings for more information.
+Click on the links in the headings for more information.
 
 `Manually throw/raise an exception? <http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python>`_
 -----------------------------------------------------------------------------------------------------------------------------------

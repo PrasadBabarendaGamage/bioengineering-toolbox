@@ -6,6 +6,8 @@ Linux FAQ
 
 .. TEMPLATE: `link <link>`_
 
+Click on the links in the headings for more information.
+
 `tar/untar or zip/unzip <http://www.simplehelp.net/2008/12/15/how-to-create-and-extract-zip-tar-targz-and-tarbz2-files-in-linux/>`_
 -----------------------------------------------------------------------------------------------------------------------------------
   Compress:
@@ -50,3 +52,45 @@ Linux FAQ
   .. code-block:: bash
 
     wget http://www.openss7.org/repos/tarballs/strx25-0.9.2.1.tar.bz2
+
+
+GUI utility to mount remote filesystems over SSH
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+`Older versions of Ubuntu (<11.10) <http://askubuntu.com/questions/4625/is-there-a-gui-utility-to-mount-remote-filesystems-over-ssh>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+By default the GVFS in GNOME supports SSH connections. Click on the nautilus icon (the folder with the house on it) it will launch the file manager.
+
+.. image:: images/ssh-remote_mount-file-manager.png
+
+Then go to File -> "Connect to server":
+
+.. image:: images/ssh-remote_mount-dialog.png
+
+Paste in the following:
+
+=========  ==============================
+Sever:     bioeng10.bioeng.auckland.ac.nz
+Folder:    /hpc/upi
+UserName:  upi
+=========  ==============================
+
+Click connect and put in your password (ask it to forget immediately for now)
+
+This will mount the remote SSH server in a folder you can access from the file manager. If you need to access the mount in the command line it's in .gvfs.
+
+You can also mount it in Nautilus. Just hit CTRL+L and in the address bar type: ssh://server-ip/somepath/
+
+`Newer versions of Ubuntu (>11.10) <http://askubuntu.com/questions/34768/where-is-connect-to-server-for-ssh-connections-in-unity>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+press Alt+F2 and type nautilus-connect-server as shown below.
+
+.. image:: images/ssh-remote_mount-unity-step1.png
+.. image:: images/ssh-remote_mount-unity-step2.png
+
+
+
+
+
+
+

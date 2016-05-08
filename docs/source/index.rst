@@ -15,6 +15,7 @@ Contents:
    PCA_analysis
    python_faq
    linux_faq
+   rst_faq
 
 Indices and tables
 ==================

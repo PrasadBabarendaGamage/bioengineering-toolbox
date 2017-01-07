@@ -16,6 +16,7 @@ Contents:
    python_faq
    linux_faq
    rst_faq
+   morphic_faq
 
 Indices and tables
 ==================

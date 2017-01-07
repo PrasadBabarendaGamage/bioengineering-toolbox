@@ -33,6 +33,13 @@ Click on the links in the headings for more information.
 
     find / -name 'program.c'
 
+`Find size of directory <http://unix.stackexchange.com/questions/185764/how-do-i-get-the-size-of-a-directory-on-the-command-line>`_
+-----------------------------------------------------------------------------------
+
+  .. code-block:: bash
+
+    du -sh folder
+
 `Print all environmental variables <http://askubuntu.com/questions/275965/how-to-list-all-variables-names-and-their-current-values>`_
 -------------------------------------------------------------------------------------------------------------------------------------
 

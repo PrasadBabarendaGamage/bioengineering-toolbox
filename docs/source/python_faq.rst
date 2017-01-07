@@ -52,6 +52,7 @@ See `os.path <https://docs.python.org/2/library/os.path.html>`_, `shutil <https:
     import shutil
     shutil.copyfile(src, dst) # dst must be the complete target file name
     shutil.copy(src, dst) # dst can be a directory
+    shutil.rmtree() # will delete a directory and all its contents.
 
 
 

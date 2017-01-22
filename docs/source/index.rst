@@ -17,6 +17,7 @@ Contents:
    linux_faq
    rst_faq
    morphic_faq
+   useful_software
 
 Indices and tables
 ==================

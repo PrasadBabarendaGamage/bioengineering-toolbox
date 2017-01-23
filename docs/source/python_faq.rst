@@ -8,6 +8,14 @@ Python FAQ
 
 Click on the links in the headings for more information.
 
+Displaying docstrings to see function arguments and info
+---------------------------------------------------------
+  .. code-block:: python
+
+    help(function)
+
+See `Doc string conventions (PEP257) <https://www.python.org/dev/peps/pep-0257/>`_ for information about how to write docstrings
+
 `Manually throw/raise an exception? <http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python>`_
 -----------------------------------------------------------------------------------------------------------------------------------
 

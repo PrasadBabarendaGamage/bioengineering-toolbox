@@ -13,10 +13,11 @@ Contents:
 
    introduction
    PCA_analysis
-   python_faq
    linux_faq
+   python_faq
    rst_faq
    morphic_faq
+   opencmiss_faq
    useful_software
 
 Indices and tables

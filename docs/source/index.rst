@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to bioengineering-book's documentation!
+Welcome to bioengineering-toolbox's documentation!
 ===============================================
 
 Contents:
@@ -14,7 +14,7 @@ Contents:
    introduction
    PCA_analysis
    linux_faq
-   python_faq
+   python_2_faq
    rst_faq
    morphic_faq
    opencmiss_faq

@@ -57,6 +57,10 @@ See `os.path <https://docs.python.org/2/library/os.path.html>`_, `shutil <https:
     os.path.join(path, *paths)
     os.path.split(path) # returns (head, tail) where tail is the last pathname component
     
+    # Check if a directory exists and create it if necessary
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
     import shutil
     shutil.copyfile(src, dst) # dst must be the complete target file name
     shutil.copy(src, dst) # dst can be a directory

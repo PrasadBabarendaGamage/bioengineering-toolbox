@@ -15,9 +15,10 @@ Contents:
    PCA_analysis
    linux_faq
    python_2_faq
-   rst_faq
+   documenting_code
    morphic_faq
    opencmiss_faq
+   cmgui_faq
    useful_software
 
 Indices and tables

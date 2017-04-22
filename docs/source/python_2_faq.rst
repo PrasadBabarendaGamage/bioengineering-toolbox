@@ -51,8 +51,8 @@ See `os.path <https://docs.python.org/2/library/os.path.html>`_, `shutil <https:
   .. code-block:: python
 
     import os
-    os.path.exists(path)
-    os.path.isfile(path)
+    os.path.exists(path) # returns true for directories
+    os.path.isfile(path) # returns false for directories
     os.path.isdir(path)
     os.path.join(path, *paths)
     os.path.split(path) # returns (head, tail) where tail is the last pathname component

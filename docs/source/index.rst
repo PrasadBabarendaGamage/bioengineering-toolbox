@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to bioengineering-toolbox's documentation!
-===============================================
+==================================================
 
 Contents:
 
@@ -12,14 +12,16 @@ Contents:
    :maxdepth: 2
 
    introduction
-   PCA_analysis
    linux_faq
    python_2_faq
    documenting_code
+   git
    morphic_faq
    opencmiss_faq
    cmgui_faq
    useful_software
+
+   .. PCA_analysis
 
 Indices and tables
 ==================

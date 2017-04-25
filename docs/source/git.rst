@@ -36,3 +36,7 @@ These commands might be useful when migrating repositories e.g. from bitbucket
 to github. This allows the untracked changes to be move to a separate folder
 which can then be copied over to the new location where the new repo is
 located.
+
+
+`Getting git on a server <https://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server>`_
+-----------------------------------------------------------------------------------------------------

@@ -16,19 +16,42 @@ Displaying docstrings to see function arguments and info
 
 See `Doc string conventions (PEP257) <https://www.python.org/dev/peps/pep-0257/>`_ for information about how to write docstrings
 
-`Manually throw/raise an exception? <http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python>`_
------------------------------------------------------------------------------------------------------------------------------------
-
-  .. code-block:: python
-
-    raise ValueError('A very specific bad thing happened')
-
 `Check if a variable is a list? <http://stackoverflow.com/questions/12569452/how-to-identify-numpy-types-in-python>`_
 ---------------------------------------------------------------------------------------------------------------------
 
   .. code-block:: python
 
     isinstance(variable, list)
+
+
+`Check the existence of a local variable <http://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists>`_
+---------------------------------------
+
+  .. code-block:: python
+
+    if 'myVar' in locals():
+        # myVar exists.
+
+`Check the existence of a global variable <http://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists>`_
+----------------------------------------
+
+  .. code-block:: python
+
+    if 'myVar' in globals():
+        # myVar exists.
+
+`Check if an object has an attribute <http://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists>`_
+------------------------------------
+
+  .. code-block:: python
+
+    if hasattr(obj, 'attr_name'):
+
+`Check if variable is a function <http://stackoverflow.com/questions/624926/how-to-detect-whether-a-python-variable-is-a-function>`_
+---------------------------------------------------------
+  .. code-block:: python
+
+    callable(obj)
 
 `Creating dictionaries <http://www.python-course.eu/dictionaries.php>`_
 -----------------------------------------------------------------------
@@ -69,3 +92,77 @@ See `os.path <https://docs.python.org/2/library/os.path.html>`_, `shutil <https:
 
 
 
+`Manually throw/raise an exception? <http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python>`_
+-----------------------------------------------------------------------------------------------------------------------------------
+
+  .. code-block:: python
+
+    raise ValueError('A very specific bad thing happened')
+The class hierarchy for built-in exceptions is:
+
+  .. code-block:: bash
+
+    BaseException
+     +-- SystemExit
+     +-- KeyboardInterrupt
+     +-- GeneratorExit
+     +-- Exception
+          +-- StopIteration
+          +-- StopAsyncIteration
+          +-- ArithmeticError
+          |    +-- FloatingPointError
+          |    +-- OverflowError
+          |    +-- ZeroDivisionError
+          +-- AssertionError
+          +-- AttributeError
+          +-- BufferError
+          +-- EOFError
+          +-- ImportError
+               +-- ModuleNotFoundError
+          +-- LookupError
+          |    +-- IndexError
+          |    +-- KeyError
+          +-- MemoryError
+          +-- NameError
+          |    +-- UnboundLocalError
+          +-- OSError
+          |    +-- BlockingIOError
+          |    +-- ChildProcessError
+          |    +-- ConnectionError
+          |    |    +-- BrokenPipeError
+          |    |    +-- ConnectionAbortedError
+          |    |    +-- ConnectionRefusedError
+          |    |    +-- ConnectionResetError
+          |    +-- FileExistsError
+          |    +-- FileNotFoundError
+          |    +-- InterruptedError
+          |    +-- IsADirectoryError
+          |    +-- NotADirectoryError
+          |    +-- PermissionError
+          |    +-- ProcessLookupError
+          |    +-- TimeoutError
+          +-- ReferenceError
+          +-- RuntimeError
+          |    +-- NotImplementedError
+          |    +-- RecursionError
+          +-- SyntaxError
+          |    +-- IndentationError
+          |         +-- TabError
+          +-- SystemError
+          +-- TypeError
+          +-- ValueError
+          |    +-- UnicodeError
+          |         +-- UnicodeDecodeError
+          |         +-- UnicodeEncodeError
+          |         +-- UnicodeTranslateError
+          +-- Warning
+               +-- DeprecationWarning
+               +-- PendingDeprecationWarning
+               +-- RuntimeWarning
+               +-- SyntaxWarning
+               +-- UserWarning
+               +-- FutureWarning
+               +-- ImportWarning
+               +-- UnicodeWarning
+               +-- BytesWarning
+               +-- ResourceWarning

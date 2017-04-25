@@ -9,7 +9,7 @@ Morphic FAQ
 Click on the links in the headings for more information.
 
 `Using groups <https://github.com/duanemalcolm/morphic/blob/master/test/test_io.py>`_
------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
   .. code-block:: python
 
@@ -19,3 +19,8 @@ Click on the links in the headings for more information.
     for element in mesh.elements.groups['cranial']:
         print node.id
 
+
+Build wxPython on Ubuntu 16.04 (required by mayavi2, which is used by morphic)
+-------------------------------------------------------------------------------------
+
+sudo apt-get install libgstreamer-plugins-base0.10-dev

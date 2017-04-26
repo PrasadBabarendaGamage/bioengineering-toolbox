@@ -4,7 +4,8 @@ Python 2 FAQ
 .. toctree::
    :maxdepth: 2
 
-.. TEMPLATE: `link <link>`_
+.. `link <link>`_
+.. --------------
 
 Click on the links in the headings for more information.
 
@@ -91,6 +92,21 @@ See `os.path <https://docs.python.org/2/library/os.path.html>`_, `shutil <https:
 
 
 
+`Load/save json <http://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file-in-python>`_
+-----------------------------------------------------------------------
+
+  .. code-block:: python
+
+    import json
+    with open('strings.json') as json_data:
+        d = json.load(json_data)
+        print(d)
+
+  .. code-block:: python
+
+    import json
+    with open('data.txt', 'w') as outfile:
+        json.dump(data, outfile, indent=4)
 
 `Manually throw/raise an exception? <http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python>`_
 -----------------------------------------------------------------------------------------------------------------------------------

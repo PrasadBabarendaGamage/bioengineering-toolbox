@@ -16,26 +16,30 @@ Software development
 IDE (Integrated development environment)
 ----------------------------------------
 
-* `Pycharm <https://www.jetbrains.com/pycharm/>`_ (all platforms). Free
-  community edition available. Students and academic researchers can apply
-  for the professional version. The professional version provides a number
-  of additional features e.g. code profiler (see this
-  `link <https://www.jetbrains.com/pycharm/features/editions_comparison_matrix.html>`_
-  for a comparison of features in each edition).
+* `Pycharm <https://www.jetbrains.com/pycharm/>`_ (all platforms).
+
+   - Free community edition available. Students and academic researchers can
+     apply for the professional version. The professional version provides a
+     number of additional features e.g. code profiler (see this `link <https://www.jetbrains.com/pycharm/features/editions_comparison_matrix.html>`_
+     for a comparison of features in each edition).
+
+   - Does not support git submodules yet. You can instead use a dedicated git
+     client that supports submodules.
 
 ----------------------------------
 Git (version controlling projects)
 ----------------------------------
 
 * Existing poject hosts
-    - Github (highly recommended) nlimited private repositories for students
+    - Github (highly recommended) unlimited private repositories for students
     - Physiome model repository PMR2
 
 * Self hosting
-    - gitbucket (untested)
+    - `Locally through ssh <https://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server>`_
+    - Gitbucket (untested)
 
-* Git client
-    - Gitkraken
+* Git clients
+    - Gitkraken (highly recommended)
 
 ---------------------------
 CI (continuous integration)
@@ -64,6 +68,13 @@ Syncing cloud storage files
       for academic discount)
 
     - (linux) Dropbox client
+
+
+---------
+Databases
+---------
+
+* MongoDB (`linux installation instructions <https://docs.mongodb.com/manual/tutorial/install-mongodb-on-linux/>`_)
 
 
 ====================

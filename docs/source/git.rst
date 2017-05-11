@@ -15,6 +15,15 @@ GitHub
 `How to link to a specific line number on GitHub <http://stackoverflow.com/questions/23821235/how-to-link-to-specific-line-number-on-github>`_
 --------------------------------------------------------------------------
 
+First get a permanent link to files you want to link to on on GitHub. You
+can do this by viewing the file and pressing the "y" key to update the URL
+to a permalink to the exact version of the file you see (see this `link
+<https://help.github.com/articles/getting-permanent-links-to-files/>`_ for more information).
+
+Then click on the line number you want (like line 18), and the URL in your
+browser will get a #L18 tacked onto the end. You can now copy and use this url.
+
+
 ===========================
 CLI (command line interface
 ===========================

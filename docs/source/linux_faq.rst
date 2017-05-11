@@ -43,6 +43,21 @@ The ``grep`` command can be used to simplify things further:
 where ``-i`` indicates the search term is case insensitive. see this `link <http://droptips.com/using-grep-and-ignoring-case-case-insensitive-grep/>`_ for further
 details about the ``grep`` command.
 
+`Change file permissions <http://linuxcommand.org/lts0070.php>`_
+-----------------------------------------------------------------------------------------------------------------------------------
+Change permissions :
+
+  .. code-block:: bash
+
+    chmod -R 755 your_directory
+
++-------+---------------------------------------------------------------------+
+|Value  | Description                                                         |
++=======+=====================================================================+
+|755    | (rwxr-xr-x) The file's owner may read, write, and execute the file. |
+|       | All others may read and execute the file. This setting is common for|
+|       | programs that are used by all users.                                |
++-------+---------------------------------------------------------------------+
 
 `tar/untar or zip/unzip <http://www.simplehelp.net/2008/12/15/how-to-create-and-extract-zip-tar-targz-and-tarbz2-files-in-linux/>`_
 -----------------------------------------------------------------------------------------------------------------------------------

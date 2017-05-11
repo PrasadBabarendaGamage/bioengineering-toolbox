@@ -8,6 +8,13 @@ Git
 .. `link <link>`_
 
 
+======
+GitHub
+======
+
+`How to link to a specific line number on GitHub <http://stackoverflow.com/questions/23821235/how-to-link-to-specific-line-number-on-github>`_
+--------------------------------------------------------------------------
+
 ===========================
 CLI (command line interface
 ===========================

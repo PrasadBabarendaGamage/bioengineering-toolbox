@@ -108,7 +108,7 @@ See `os.path <https://docs.python.org/2/library/os.path.html>`_, `shutil <https:
     with open('data.txt', 'w') as outfile:
         json.dump(data, outfile, indent=4)
 
-`Manually throw/raise an exception? <http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python>`_
+`Manually throw/raise an exception <http://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python>`_
 -----------------------------------------------------------------------------------------------------------------------------------
 
   .. code-block:: python

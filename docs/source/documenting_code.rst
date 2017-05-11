@@ -19,10 +19,6 @@ for a guide to the rst file format.
 To find out about the differences between reST, docutils, readthedocs,
 sphinx, and extensions, see this `link <http://www.git-pull.com/code_explorer/rst-docutils-sphinx-readthedocs.html#rest-docutils-sphinx-readthedocs>`_.
 
-
-
-
-
 `Sphinx: force rebuild of html, including autodoc <http://stackoverflow.com/questions/21019505/sphinx-force-rebuild-of-html-including-autodoc>`_
 -----------------------------------------------------------------------
 
@@ -30,3 +26,6 @@ sphinx, and extensions, see this `link <http://www.git-pull.com/code_explorer/rs
 
     html -E -a
 
+
+`Table width fix for Read the Docs Sphinx theme <http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html>`_
+-----------------------------------------------------------------------

@@ -8,6 +8,12 @@ Git
 .. `link <link>`_
 
 
+=======
+General
+=======
+
+`How to ignore specific folders <http://stackoverflow.com/questions/1470572/gitignore-ignore-any-bin-directory>`_
+
 ======
 GitHub
 ======

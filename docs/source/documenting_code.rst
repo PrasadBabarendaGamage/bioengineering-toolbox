@@ -32,6 +32,7 @@ sphinx, and extensions, see this `link <http://www.git-pull.com/code_explorer/rs
 
 
 `My ReadTheDocs project isn’t building <http://docs.readthedocs.io/en/latest/faq.html#my-project-isn-t-building-with-autodoc>`_
+-------------------------------------------------------------------------------
 
 First, you should check out the Builds tab of your project. That records all
 of the build attempts that RTD has made to build your project. If you see

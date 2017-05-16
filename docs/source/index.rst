@@ -20,6 +20,7 @@ Contents:
    opencmiss_faq
    cmgui_faq
    useful_software
+   research_computing
 
    .. PCA_analysis
 

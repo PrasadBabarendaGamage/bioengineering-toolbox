@@ -37,8 +37,8 @@ First, you should check out the Builds tab of your project. That records all
 of the build attempts that RTD has made to build your project. If you see
 ``ImportError`` messages for custom Python modules, you should enable the
 virtualenv feature in the Admin page of your project, which will install your
-project into a virtualenv, and allow you to specify a ``requirements.txt`` file
- for your project.
+project into a virtualenv, and allow you to specify a ``requirements.txt``
+file for your project.
 
 You can create this file using the following steps
 

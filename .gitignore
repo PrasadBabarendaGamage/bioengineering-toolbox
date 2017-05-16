@@ -63,3 +63,6 @@ target/
 
 # Linux journal files
 *~
+
+# Pycharm project files
+.idea/*

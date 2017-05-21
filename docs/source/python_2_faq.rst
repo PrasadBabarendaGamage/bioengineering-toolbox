@@ -114,7 +114,7 @@ See `os.path <https://docs.python.org/2/library/os.path.html>`_, `shutil <https:
   .. code-block:: python
 
     raise ValueError('A very specific bad thing happened')
-    
+
 The class hierarchy for built-in exceptions is:
 
   .. code-block:: bash
@@ -184,6 +184,5 @@ The class hierarchy for built-in exceptions is:
                +-- BytesWarning
                +-- ResourceWarning
 
-`Tutorials for for plotting in python using matplotlib
-<https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html>`_
--------------------------------------------------------------
+`Tutorials for for plotting in python using matplotlib <https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html>`_
+-------------------------------------------------------------------------------

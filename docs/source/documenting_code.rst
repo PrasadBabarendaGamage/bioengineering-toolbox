@@ -19,6 +19,11 @@ for a guide to the rst file format.
 To find out about the differences between reST, docutils, readthedocs,
 sphinx, and extensions, see this `link <http://www.git-pull.com/code_explorer/rst-docutils-sphinx-readthedocs.html#rest-docutils-sphinx-readthedocs>`_.
 
+Examples of well documented code repositories
+---------------------------------------------
+http://libcellml.readthedocs.io/
+http://morphic.readthedocs.io/
+
 `Sphinx: force rebuild of html, including autodoc <http://stackoverflow.com/questions/21019505/sphinx-force-rebuild-of-html-including-autodoc>`_
 -----------------------------------------------------------------------
 

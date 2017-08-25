@@ -96,3 +96,11 @@ setup a ssh key pair e.g. in on github.
 
 `Adding ssh key to GitHub <https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>`_
 ----------------------------------------------------------------------------------------------------
+
+
+`How do I make Git ignore file mode (chmod) changes? <https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes/>`_
+-------------------------------------------------------------------------------
+
+  .. code-block:: bash
+
+    git config core.fileMode false

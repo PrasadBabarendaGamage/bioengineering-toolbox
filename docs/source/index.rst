@@ -19,6 +19,7 @@ Contents:
    morphic_faq
    opencmiss_faq
    cmgui_faq
+   pycharm_faq
    useful_software
    research_computing
 

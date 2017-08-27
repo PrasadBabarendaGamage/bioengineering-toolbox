@@ -7,6 +7,10 @@ Python 2 FAQ
 .. `link <link>`_
 .. --------------
 
+General tips can be found here:
+http://book.pythontips.com/en/latest/index.html
+
+
 Click on the links in the headings for more information.
 
 Displaying docstrings to see function arguments and info

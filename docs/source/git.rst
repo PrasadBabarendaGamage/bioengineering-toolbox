@@ -97,10 +97,49 @@ setup a ssh key pair e.g. in on github.
 `Adding ssh key to GitHub <https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>`_
 ----------------------------------------------------------------------------------------------------
 
-
 `How do I make Git ignore file mode (chmod) changes? <https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes/>`_
 -------------------------------------------------------------------------------
 
   .. code-block:: bash
 
     git config core.fileMode false
+
+
+`Make a git submodule to track remote branch <https://stackoverflow.com/questions/1777854/git-submodules-specify-a-branch-tag/18799234#18799234/>`_
+--------------------------------------------------
+
+  .. code-block:: bash
+
+    # add submodule to track master branch
+    git submodule add -b master [URL to Git repo];
+
+    # Make sure the parent repo knows that its submodule now tracks a branch:
+    cd /path/to/your/parent/repo
+    git config -f .gitmodules submodule.<path>.branch <branch>
+
+    # Make sure your submodule is actually at the latest of that branch:
+    cd path/to/your/submodule
+    git checkout -b branch --track origin/branch
+    # if the master branch already exist:
+    git branch -u origin/master master
+    # (with 'origin' being the name of the upstream remote repo the submodule has been cloned from.
+    #  A git remote -v inside that submodule will display it. Usually, it is 'origin')
+
+    # Don't forget to record the new state of your submodule in your parent repo:
+    cd /path/to/your/parent/repo
+    git add path/to/your/submodule
+    git commit -m "Make submodule tracking a branch"
+    # Subsequent update for that submodule will have to use the --remote option:
+    # update your submodule
+    # --remote will also fetch and ensure that
+    # the latest commit from the branch is used
+    git submodule update --remote
+
+    # to avoid fetching use
+    git submodule update --remote --no-fetch
+
+When cloning a repository with a submodule, use the following command to initialise and update the submodules.
+
+  .. code-block:: bash
+
+    git submodule update --init --remote

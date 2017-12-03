@@ -97,14 +97,6 @@ setup a ssh key pair e.g. in on github.
 `Adding ssh key to GitHub <https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>`_
 ----------------------------------------------------------------------------------------------------
 
-`How do I make Git ignore file mode (chmod) changes? <https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes/>`_
--------------------------------------------------------------------------------
-
-  .. code-block:: bash
-
-    git config core.fileMode false
-
-
 `Make a git submodule to track remote branch <https://stackoverflow.com/questions/1777854/git-submodules-specify-a-branch-tag/18799234#18799234/>`_
 --------------------------------------------------
 
@@ -143,3 +135,20 @@ When cloning a repository with a submodule, use the following command to initial
   .. code-block:: bash
 
     git submodule update --init --remote
+
+`How do I make Git ignore file mode (chmod) changes? <https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes/>`_
+-------------------------------------------------------------------------------
+
+  .. code-block:: bash
+
+    git config core.fileMode false
+  .. code-block:: bash
+
+    git config core.fileMode false
+
+  .. code-block:: bash
+
+    core.fileMode
+       If false, the executable bit differences between the index and the
+       working copy are ignored; useful on broken filesystems like FAT.
+       See git-update-index(1). True by default.

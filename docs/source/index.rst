@@ -13,6 +13,7 @@ Contents:
 
    introduction
    linux_faq
+   installing_software
    python_2_faq
    documenting_code
    git

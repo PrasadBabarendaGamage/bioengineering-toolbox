@@ -21,6 +21,7 @@ Contents:
    opencmiss_faq
    cmgui_faq
    pycharm_faq
+   google_api_faq
    useful_software
    research_computing
    photo_and_video

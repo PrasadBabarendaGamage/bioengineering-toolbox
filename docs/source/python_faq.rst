@@ -1,5 +1,5 @@
-Python 2 FAQ
-============
+Python FAQ
+==========
    
 .. toctree::
    :maxdepth: 2

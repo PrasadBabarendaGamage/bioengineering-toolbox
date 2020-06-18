@@ -1,1 +1,1 @@
-sphinxcontrib-bibtex==0.3.5
+sphinxcontrib-bibtex

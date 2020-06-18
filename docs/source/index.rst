@@ -16,6 +16,7 @@ Contents:
    installing_software
    python_faq
    javascript_faq
+   threejs_faq
    documenting_code
    git
    morphic_faq

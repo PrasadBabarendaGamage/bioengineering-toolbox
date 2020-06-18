@@ -13,6 +13,15 @@ http://book.pythontips.com/en/latest/index.html
 
 Click on the links in the headings for more information.
 
+Strings
+-------
+
+  .. code-block:: python
+
+    # Replace substring in string (where the item in [] is an optional argument.
+    str.replace(old_substring, new_substring [, count])
+
+
 Displaying docstrings to see function arguments and info
 ---------------------------------------------------------
   .. code-block:: python

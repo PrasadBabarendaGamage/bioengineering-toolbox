@@ -20,6 +20,7 @@ Contents:
    documenting_code
    git
    morphic_faq
+   mayavi_faq
    opencmiss_faq
    cmgui_faq
    pycharm_faq

@@ -23,3 +23,6 @@ Creating & editing entries
     # Replacement value = 'A'
     df['BrandName'] = df['BrandName'].replace(['ABC', 'AB'], 'A')
 
+    # Turn off warnings where overwriting dataframe values.
+    pd.options.mode.chained_assignment = None  # default='warn'
+

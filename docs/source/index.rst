@@ -15,6 +15,7 @@ Contents:
    linux_faq
    installing_software
    python_faq
+   pandas_faq
    javascript_faq
    threejs_faq
    documenting_code

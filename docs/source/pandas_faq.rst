@@ -21,5 +21,5 @@ Creating & editing entries
     # Replacing pandas dataframe column values with another value.
     # Values to replace = ['ABC', 'AB']
     # Replacement value = 'A'
-    df['BrandName'].replace(['ABC', 'AB'], 'A')
+    df['BrandName'] = df['BrandName'].replace(['ABC', 'AB'], 'A')
 

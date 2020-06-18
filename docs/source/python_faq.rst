@@ -45,12 +45,20 @@ See `Doc string conventions (PEP257) <https://www.python.org/dev/peps/pep-0257/>
     if 'myVar' in globals():
         # myVar exists.
 
-`Check if an object has an attribute <http://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists>`_
-------------------------------------
+Objects
+-------
 
   .. code-block:: python
 
+    # Check if an object has an attribute.
     if hasattr(obj, 'attr_name'):
+
+    # Set an attribute.
+    setattr(obj, 'attr_name', 'attr_value')
+
+    # Set an attribute within a class.
+    setattr(self, 'attr_name', 'attr_value')
+
 
 `Check if variable is a function <http://stackoverflow.com/questions/624926/how-to-detect-whether-a-python-variable-is-a-function>`_
 ---------------------------------------------------------
@@ -58,19 +66,34 @@ See `Doc string conventions (PEP257) <https://www.python.org/dev/peps/pep-0257/>
 
     callable(obj)
 
-`Creating dictionaries <http://www.python-course.eu/dictionaries.php>`_
------------------------------------------------------------------------
+`Dictionaries <http://www.python-course.eu/dictionaries.php>`_
+------------
 
   .. code-block:: python
 
-    results = {}
-    results['Deformation Gradient Tensor'] = F
+    # Creating dictionaries.
+    dict = {}
+    # The key is 'color', the item is 'blue'.
+    dict['color'] = 'blue'
+    # or
+    dict = {'color': 'blue'}
 
-  or
+    # Iterating through keys.
+    for key in dict:
+      print(key)
 
-  .. code-block:: python
+    # Listing items (as a tuple).
+    items = a_dict.items()
+    #prints: dict_items([('color', 'blue')])
 
-    results = {'Deformation Gradient Tensor' : F,}
+    # Iterating through items.
+    for item in dict.items():
+      print(item)
+
+    # Iterating through key-item pairs.
+    for key, value in dict.items():
+      print(key, '->', value)
+
 
 Common IO functions 
 -------------------

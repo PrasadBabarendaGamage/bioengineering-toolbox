@@ -88,3 +88,11 @@ Optimisation libraries for parameter estimation (model calibration)
 * `TAO <https://www.mcs.anl.gov/petsc/documentation/index.html>`_ (
   `petsc4py <http://www.cimec.org.ar/python/petsc4py.html>`_ provides python
   bindings. See the demo folder for examples).
+
+
+====================
+Imaging libraries
+====================
+
+
+* pydicom (`Reading & Editing DICOM Metadata w/ Python <https://medium.com/@ashkanpakzad/reading-editing-dicom-metadata-w-python-8204223a59f6>`_)

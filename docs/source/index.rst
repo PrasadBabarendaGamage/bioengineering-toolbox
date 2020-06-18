@@ -15,6 +15,7 @@ Contents:
    linux_faq
    installing_software
    python_faq
+   javascript_faq
    documenting_code
    git
    morphic_faq

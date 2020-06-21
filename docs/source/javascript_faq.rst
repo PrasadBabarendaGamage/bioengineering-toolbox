@@ -49,6 +49,20 @@ Arrays
     const arrays = [[1], ["2"], [3]];
     const merged = [].concat(arrays);
 
+`Conditional operator (if and ?) <https://javascript.info/ifelse#:~:text=The%20so%2Dcalled%20%E2%80%9Cconditional%E2%80%9D,JavaScript%20which%20has%20that%20many.>`_
+------
+
+  .. code-block:: javascript
+    // Check if object attribute exists.
+    if (object.attribute) {
+      console.log("exists");
+    }
+
+    // ? conditional operator.
+    let result = condition ? value1 : value2;
+    // The condition is evaluated: if it’s truthy then value1is returned, otherwise – value2, e.g:
+    let accessAllowed = (age > 18) ? true : false;
+
 
 `Classes <https://www.w3schools.com/Js/js_classes.asp>`_
 -------
@@ -105,6 +119,11 @@ Arrays
 
     // List value of an object.
     Object.values(person)
+
+    // Check if object attribute exists.
+    if (object.attribute) {
+      console.log("exists");
+    }
 
 
 Looping

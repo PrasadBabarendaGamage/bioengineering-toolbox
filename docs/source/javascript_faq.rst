@@ -49,6 +49,25 @@ Arrays
     const arrays = [[1], ["2"], [3]];
     const merged = [].concat(arrays);
 
+
+`Classes <https://www.w3schools.com/Js/js_classes.asp>`_
+-------
+
+  .. code-block:: javascript
+
+    // Constructor is similar to __init__ in python.
+    class Car {
+      constructor(brand) {
+        this.carname = brand;
+      }
+      present(x) {
+        return x + ", I have a " + this.carname;
+      }
+    }
+    mycar = new Car("Ford");
+    mycar.present('Hello');
+
+
 `Objects <https://www.tutorialsteacher.com/javascript/javascript-object>`_
 -------
 

@@ -18,8 +18,9 @@ Contents:
    pandas_faq
    javascript_faq
    threejs_faq
-   documenting_code
-   git
+   rest_sphinx_faq
+   readthedocs_faq
+   git_faq
    morphic_faq
    mayavi_faq
    opencmiss_faq

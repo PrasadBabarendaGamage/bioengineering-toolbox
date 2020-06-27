@@ -1,6 +1,6 @@
-***
-Git
-***
+*******
+Git FAQ
+*******
 
 .. toctree::
    :maxdepth: 2

@@ -71,3 +71,8 @@ Debugging OpenCMISS examples
 Set diagnostics on and off before/after the line of interest.
 
 Use Totalview.
+
+Hydrostatic pressure export
+----------------------------
+
+Element constant hydrostatic pressure fields are stored in the exelem files.

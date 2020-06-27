@@ -1,15 +1,14 @@
-.. bioengineering-book documentation master file, created by
-   sphinx-quickstart on Sat Mar 19 19:06:01 2016.
+.. bioengineering-toolbox documentation master file, created by
+   sphinx-quickstart on Sat Jun 27 17:29:03 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 Welcome to bioengineering-toolbox's documentation!
 ==================================================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
 
    introduction
    linux_faq
@@ -31,8 +30,6 @@ Contents:
    useful_software
    research_computing
    photo_and_video
-
-   .. PCA_analysis
 
 Indices and tables
 ==================

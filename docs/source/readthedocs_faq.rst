@@ -7,6 +7,23 @@ ReadTheDocs FAQ
 
 .. TEMPLATE: `link <link>`_
 
+contents.rst not found
+----------------------
+By default, readthedocs looks for a contents.rst file. However, by default sphinx creates an index.rst file. Readthedocs will therefore raise the following error:
+
+  .. code-block:: python
+
+    Sphinx error:
+    master file /home/docs/checkouts/readthedocs.org/user_builds/bioengineering-toolbox/checkouts/latest/docs/source/contents.rst not found
+
+To address this include the following line in the conf.py file:
+  .. code-block:: python
+
+    # Set the root rst to load. This is required to be named contents to allow
+    # readthedocs to host the docs using its default configuration.
+    master_doc = 'index'
+
+
 `My ReadTheDocs project isn’t building <http://docs.readthedocs.io/en/latest/faq.html#my-project-isn-t-building-with-autodoc>`_
 -------------------------------------------------------------------------------
 

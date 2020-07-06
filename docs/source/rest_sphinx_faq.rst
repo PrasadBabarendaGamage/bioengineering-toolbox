@@ -57,4 +57,17 @@ This then allows use inline code e.g.
     Here is some awesome bash code :bash:`a = b + c`.
 
 
+Adding a sphinx build configuration to pycharm
+----------------------------------------------
 
+In Run/Debug Configurations
+
+1. Click the + button and selected `python docs` -> `sphinx` and complete the following fields:
+
+  a. Name: `Sphinx`
+  b. Input: Select the source directory in the documentation folder
+  c. Output: Select the build directory in the documentation folder
+  d. Python interpretor: Select your interpreter
+  e. Options: `-E -a` (This options forces rebuild of html)
+
+2. Click ok.

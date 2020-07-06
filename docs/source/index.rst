@@ -20,6 +20,7 @@ Welcome to bioengineering-toolbox's documentation!
    rest_sphinx_faq
    readthedocs_faq
    git_faq
+   json_faq
    morphic_faq
    mayavi_faq
    opencmiss_faq

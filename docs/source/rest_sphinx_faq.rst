@@ -71,3 +71,20 @@ In Run/Debug Configurations
   e. Options: `-E -a` (This options forces rebuild of html)
 
 2. Click ok.
+
+
+Adding jupyter notebook code to sphinx
+--------------------------------------
+https://nbsphinx.readthedocs.io/en/0.7.1/
+
+
+`Add images <http://sphinx-doc.org/rest.html?highlight=image#images>`_
+-----------------------------------------------------------------------
+
+Use the image directive, for example:
+
+  .. code-block:: bash
+
+    .. image:: example.png
+
+The path to the image is relative to the file. See the Sphinx documentation for more information.

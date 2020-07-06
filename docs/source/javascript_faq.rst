@@ -49,10 +49,26 @@ Arrays
     const arrays = [[1], ["2"], [3]];
     const merged = [].concat(arrays);
 
+    // Get subset of values from an array without modifying original array.
+    const array  = [1, 2, 3, 4, 5];
+    // slice from 1..3 - add 1 as the end index is not included
+    const arraySubset = array.slice(1, 3 + 1);
+    console.log(arraySubset);
+
 `Conditional operator (if and ?) <https://javascript.info/ifelse#:~:text=The%20so%2Dcalled%20%E2%80%9Cconditional%E2%80%9D,JavaScript%20which%20has%20that%20many.>`_
 ------
 
   .. code-block:: javascript
+
+    // If statement.
+    if (condition1) {
+      console.log("condition1 is true");
+    } else if (condition2) {
+      console.log("condition2 is true");
+    } else {
+      console.log("both conditions not true");
+    }
+
     // Check if object attribute exists.
     if (object.attribute) {
       console.log("exists");
@@ -125,6 +141,8 @@ Arrays
       console.log("exists");
     }
 
+    // Looping - see looping section.
+
 
 Looping
 -------
@@ -140,6 +158,24 @@ Looping
     const foobar = ['A', 'B', 'C'];
     for (const [index, element] of foobar.entries()) {
       console.log(index, element);
+    }
+
+    // Looping through object values.
+    const object = {'a': 1, 'b': 2, 'c' : 3};
+    for (const value of Object.values(object)) {
+      console.log(value);
+    }
+
+    // Looping through object keys.
+    const object = {'a': 1, 'b': 2, 'c' : 3};
+    for (const key of Object.keys(object)) {
+      console.log(key);
+    }
+
+    // Looping through objects keys and values.
+    const object = {'a': 1, 'b': 2, 'c' : 3};
+    for (const [key, value] of Object.entries(object)) {
+      console.log(key, value);
     }
 
 TypedArray

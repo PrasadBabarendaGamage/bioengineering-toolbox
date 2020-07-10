@@ -17,8 +17,10 @@ Welcome to bioengineering-toolbox's documentation!
    pandas_faq
    javascript_faq
    threejs_faq
+   markdown_faq
    rest_sphinx_faq
    readthedocs_faq
+   jupyter_notebook_faq
    git_faq
    json_faq
    morphic_faq

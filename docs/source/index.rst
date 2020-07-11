@@ -22,6 +22,7 @@ Welcome to bioengineering-toolbox's documentation!
    readthedocs_faq
    jupyter_notebook_faq
    git_faq
+   github_faq
    json_faq
    morphic_faq
    mayavi_faq

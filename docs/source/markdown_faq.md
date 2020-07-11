@@ -1,4 +1,4 @@
-## Markdown FAQ
+# Markdown FAQ
 
 ## [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 

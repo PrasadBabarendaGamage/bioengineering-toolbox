@@ -1,33 +1,40 @@
-# bioengineering-book
+# Bioengineering-toolbox
+
+[![Documentation Status](https://readthedocs.org/projects/bioengineering-toolbox/badge/?version=latest)](http://bioengineering-toolbox.readthedocs.io/?badge=latest)
 
 ## Synopsis
 
-This project is aimed at At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+This project is aimed at collecting tips and tricks for bioengineering researchers.
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+The repository was created to provide a first stop, toolbox that answers 'how-to' style questions that researchers find themselves asking while working on bioengineering projects. The aim is for researchers to contribute to this toolbox to create a rich database that everyone would benefit from.
 
-## Installation
+## Accessing the tutorial online
+This tutorial is hosted on Readthedocs - https://basics-tutorial.readthedocs.io/
 
-Provide code examples and explanations of how to get the project.
+## Building the tutorial locally
 
-## API Reference
+1. Clone the repository to your local machine.
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+2. Navigate to the docs/
 
-## Tests
+3. Issue the command: `make html`
 
-Describe and show how to run the tests with code examples.
+4. Open the index.html file in `docs/build/` folder
 
-## Contributors
+## Contributing to this tutorial
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+1. Fork this repository to your github account.
+
+2. Edit the Markdown (.md) files in the docs/sources folder. The files can be edited directly using the file editing tools provided by github. This will allow you to commit your changes to the repository. See the [Markdown FAQ section of the documentation](https://bioengineering-toolbox.readthedocs.io/en/latest/markdown_faq.html) for more information on how to write documentation using Markdown.
+
+3. Make a pull request from your fork to the master branch of the main [bioengineering-toolbox github repository](https://github.com/PrasadBabarendaGamage/bioengineering-toolbox).
+
+4. Your changes will be reviewed and pulled into the main bioengineering-toolbox github repository.
+
+Over time, your fork may become out of sync with the master branch of the main bioengineering-toolbox github repository. Create a pull request on your fork to pull in changes from the master branch of main bioengineering-toolbox github repository to get your fork back up-to-date. This can be performed directly on the github website.
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+GNU Public License

@@ -11,7 +11,7 @@ This project is aimed at collecting tips and tricks for bioengineering researche
 The repository was created to provide a first stop, toolbox that answers 'how-to' style questions that researchers find themselves asking while working on bioengineering projects. The aim is for researchers to contribute to this toolbox to create a rich database that everyone would benefit from.
 
 ## Accessing the tutorial online
-This tutorial is hosted on Readthedocs - https://basics-tutorial.readthedocs.io/
+This tutorial is hosted on Readthedocs - https://bioengineering-toolbox.readthedocs.io
 
 ## Building the tutorial locally
 

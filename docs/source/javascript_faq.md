@@ -54,6 +54,9 @@ const array  = [1, 2, 3, 4, 5];
 // slice from 1..3 - add 1 as the end index is not included
 const arraySubset = array.slice(1, 3 + 1);
 console.log(arraySubset);
+
+// Check if value is an array.
+Array.isArray(your_array)
 ```
 
 ## [Converting between data types](https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/)

@@ -56,6 +56,32 @@ const arraySubset = array.slice(1, 3 + 1);
 console.log(arraySubset);
 ```
 
+## [Converting between data types](https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/)
+
+```javascript
+// The parseInt() method converts a string into an integer (a whole number). 
+// You can even pass in strings with random text in them, but the number needs
+// to be the first part of the string.
+var text = '42px';
+var integer = parseInt(text, 10); // returns 42
+
+// The parseFloat() method converts a string into a point number (a number 
+// with decimal points). You can even pass in strings with random text in them,
+// but the number needs to be the first part of the string.
+var text = '3.14someRandomStuff';
+var pointNum = parseFloat(text); // returns 3.14
+
+// The Number() method converts a string to a number.
+// Sometimes it’s an integer. Other times it’s a point number. And if you 
+// pass in a string with random text in it, you’ll get NaN, an acronym for 
+// “Not a Number.”
+// Less safe than parseInt() and parseFloat()
+Number('123'); // returns 123
+Number('12.3'); // returns 12.3
+Number('3.14someRandomStuff'); // returns NaN
+Number('42px'); // returns NaN
+```
+
 ## [Conditional operator (if and ?)](https://javascript.info/ifelse#:~:text=The%20so%2Dcalled%20%E2%80%9Cconditional%E2%80%9D,JavaScript%20which%20has%20that%20many.)
 
 ```javascript
@@ -75,7 +101,8 @@ if (object.attribute) {
 
 // ? conditional operator.
 let result = condition ? value1 : value2;
-// The condition is evaluated: if it’s truthy then value1is returned, otherwise – value2, e.g:
+// The condition is evaluated: if it’s truthy then value1is returned, otherwise
+// – value2, e.g:
 let accessAllowed = (age > 18) ? true : false;
 ```
 

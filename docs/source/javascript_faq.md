@@ -167,6 +167,9 @@ if (object.attribute) {
   console.log("exists");
 }
 
+/// Return first value of an object.
+Object.values(person)[0]
+
 // Looping - see looping section.
 ```
 

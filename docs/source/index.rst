@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+==================================================
 Welcome to bioengineering-toolbox's documentation!
 ==================================================
 
@@ -10,30 +11,14 @@ Welcome to bioengineering-toolbox's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   introduction
-   linux_faq
-   installing_software
-   python_faq
-   pandas_faq
-   javascript_faq
-   threejs_faq
-   markdown_faq
-   rest_sphinx_faq
-   readthedocs_faq
-   jupyter_notebook_faq
-   git_faq
-   github_faq
-   json_faq
-   morphic_faq
-   mayavi_faq
-   opencmiss_faq
-   cmgui_faq
-   pycharm_faq
-   google_api_faq
-   eResearch_faq
-   useful_software
-   research_computing
-   photo_and_video
+   code_development
+   documentation
+   fem
+   file_formats
+   linux
+   python
+   uoa
+   web
 
 Indices and tables
 ==================

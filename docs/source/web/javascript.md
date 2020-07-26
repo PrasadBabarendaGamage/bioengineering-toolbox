@@ -244,3 +244,33 @@ typedArray1.set([1, 2, 3], 3);
 </script>
 ```
 - Modules are deferred, and only run after a document is loaded
+
+## [Fetching](https://dev.to/shoupn/javascript-fetch-api-and-using-asyncawait-47mp)
+```javascript
+addLandmarks() {
+let server = '127.0.0.1:5000'
+var module = this; // Allows variables to be accessed within then().
+fetch(`http://${server}/return_landmarks?participant_id=${this.participant}`)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (json) {
+    console.log(json)
+  });
+}
+```
+
+## Adding and removing event listeners with access to 'this'
+```javascript
+class Test {
+  constructor(){
+    this.success = false;
+    this.onMouseUp = () => {
+      // Access attributes of this class.
+      this.success = true;
+    }
+    document.addEventListener('mouseup', this.onMouseUp);
+    document.removeEventListener('mouseup', this.onMouseUp);
+  }
+}
+```

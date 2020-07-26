@@ -91,3 +91,15 @@ for (const vertex of unbufferedGeometry.vertices) {
 }
 scene.add( nodeMesh );
 ```
+
+## [Add stats.js](https://github.com/mrdoob/stats.js/)
+```javascript
+// Import stats.
+import * as Stats from 'stats.js';
+```
+
+## Enable or disable orbit controls
+```javascript
+orbitControls.enabled = false;
+orbitControls.enabled = true;
+```

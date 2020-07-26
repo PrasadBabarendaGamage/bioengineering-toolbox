@@ -30,9 +30,9 @@ Then click on the line number you want (like line 18), and the URL in your
 browser will get a #L18 tacked onto the end. You can now copy and use this url.
 
 
-===========================
-CLI (command line interface
-===========================
+============================
+CLI (command line interface)
+============================
 
 `Backup untracked files <http://gitready.com/beginner/2009/01/16/cleaning-up-untracked-files.html>`_
 ----------------------------------------------------------------------------------------------------

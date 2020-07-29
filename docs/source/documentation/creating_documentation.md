@@ -32,7 +32,7 @@ A new markdown file can be added to your project as described below (ensure
 that the `Recommonmark` Sphinx extension has been enabled as described in the 
 previous section).
 
-1. Creating a new text file with the `.md` extension in appropriate folder 
+1. Create a new text file with the `.md` extension in appropriate folder 
 within the standard sphinx `docs/source` folder, e.g. 
 `docs/source/my/folder/file.md`.
 2. This new file can be added to the main Sphinx table of contents by 
@@ -47,7 +47,7 @@ shown below:
        :maxdepth: 2
        :caption: Contents:
 
-       my/folder/file.md
+       my/folder/file
     ```
 
 ## Building documentation

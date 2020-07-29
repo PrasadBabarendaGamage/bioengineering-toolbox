@@ -30,6 +30,27 @@ Click on the links in the headings for more information.
 
 - `const` must be initialized during declaration.
 
+## [Comparisons](https://www.w3schools.com/js/js_comparisons.asp)
+
+### Comparison operators 
+| Operator 	| Description                       	| Comparing 	| Returns 	|
+|----------	|-----------------------------------	|-----------	|---------	|
+| ==       	| equal to                          	| x == 8    	| false   	|
+| ===      	| equal value and equal type        	| x === 5   	| true    	|
+| !=       	| not equal                         	| x != 8    	| true    	|
+| !==      	| not equal value or not equal type 	| x !== 5   	| false   	|
+| >        	| greater than                      	| x > 8     	| false   	|
+| <        	| less than                         	| x < 8     	| true    	|
+| >=       	| greater than or equal to          	| x >= 8    	| false   	|
+| <=       	| less than or equal to             	| x <= 8    	| true    	|
+
+### Logical operators
+| Operator 	        | Description 	| Example                       	    |
+|-----------------  |-------------	|-------------------------------	    |
+| &&       	        | and         	| (x < 10 && y > 1) is true     	    |
+| &#124;&#124;     	| or          	| (x == 5 &#124;&#124; y == 5) is false |
+| !        	        | not         	| !(x == y) is true             	    |
+
 ## Strings
 
 ### String concatenation
@@ -39,11 +60,25 @@ In javascript the `+` operator is used to add numbers or to concatenate strings.
 "1"+2+3 == "123"
 ```
 
+### [Finding strings](https://flaviocopes.com/how-to-string-contains-substring-javascript/) 
+```javascript
+// Check if substring in string.
+'a nice string'.includes('nice') 
+// Check if substring in string starting at third letter of the string.
+'a nice string'.includes('nice', 3) 
+```
+
+### convert string to other formats
+See converting between data types section.
+
 ## Arrays
 ```javascript
 // Adding elements to arrays using push.
 var array = [];
 array.push(5);
+
+// Create array [0, 1, 2, 3, 4]
+[...Array(5).keys()];
 
 //Flatten array of arrays.
 const arrays = [[1], ["2"], [3]];

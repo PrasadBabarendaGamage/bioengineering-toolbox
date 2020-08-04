@@ -9,6 +9,9 @@ Follow the quick-start instructions on the [official sphinx documentation page](
 During this process, it will ask `Separate source and build directories (y/n)`.
 Select yes.
 
+## Example repositories
+https://so-tools.readthedocs.io/
+
 ## Markdown
 By default, sphinx recognises [RestructuredText](https://en.wikipedia.org/wiki/ReStructuredText). 
 Markdown is an alternative, and relatively simpler plain text format for 

@@ -48,7 +48,7 @@ need to be installed when ReadTheDocs builds the documentation on their server.
 To see what python modules are currently installed on your machine use the
 following command in a terminal:
 
-```python
+```bash
 pip freeze > requirements.txt
 ```
 Search in this file for the items that match the other python modules

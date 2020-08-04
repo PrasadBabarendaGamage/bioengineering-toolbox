@@ -44,3 +44,8 @@ Use the image directive, for example:
 ```
 
 The path to the image is relative to the file. See the Sphinx documentation for more information.
+
+## Creating tables
+
+- [Programtically within .rst files](https://sublime-and-sphinx-guide.readthedocs.io/en/latest/tables.html)
+- [Load from csv files](https://tables-with-sphinx.readthedocs.io/en/latest/csv-table.html)

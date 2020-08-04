@@ -19,6 +19,7 @@ Welcome to bioengineering-toolbox's documentation!
    python
    uoa
    web
+   visualisations
 
 Indices and tables
 ==================

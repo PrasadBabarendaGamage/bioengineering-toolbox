@@ -2,8 +2,8 @@ Code development
 ================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Contents:
 
   code_development/git
   code_development/github

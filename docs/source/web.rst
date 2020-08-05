@@ -2,8 +2,8 @@ Web
 ===
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Contents:
 
   web/best_practices
   web/javascript

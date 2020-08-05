@@ -2,8 +2,8 @@ Python
 ======
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Contents:
 
   python/python
   python/python_bindings

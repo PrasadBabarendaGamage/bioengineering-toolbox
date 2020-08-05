@@ -2,8 +2,8 @@ Linux
 =====
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Contents:
 
   linux/linux
   linux/screen

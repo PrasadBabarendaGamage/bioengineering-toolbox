@@ -92,9 +92,13 @@ if not os.path.exists(directory):
     os.makedirs(directory)
 
 import shutil
-shutil.copyfile(src, dst) # dst must be the complete target file name
-shutil.copy(src, dst) # dst can be a directory
+shutil.copyfile(src, dst) # dst must be the complete target file name.
+shutil.copy(src, dst) # dst can be a directory.
 shutil.rmtree() # will delete a directory and all its contents.
+
+# Find module directory.
+import my_module
+module_path = os.path.dirname(my_module.__file__)
 ```
 
 ## [Load/save json](http://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file-in-python)

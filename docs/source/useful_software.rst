@@ -3,10 +3,7 @@ Useful Software
 ***************
 
 .. toctree::
-   :maxdepth: 2
-
-.. `link <link>`_
-
+  :maxdepth: 2
 
 ====================
 Software development

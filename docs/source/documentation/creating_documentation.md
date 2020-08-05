@@ -83,3 +83,9 @@ For example, to link to a section named `# My subtitle` in a file located in
 > **_NOTE:_** 
 >1. Any spaces in headings need to be replaced by `%20`.
 >2. The .md file extension should not be included in the path to the file.
+
+
+## restructuredText
+
+### Add ability to reference sections
+See this [Section](documentation/restructured_text:Referencing%20section%20headings)

@@ -111,7 +111,16 @@ Text snippets, large blocks of downloadable code, and even zip files or other bi
 :download:`An external file <readme.txt>`
 ```
 
-## Inline code block with syntax highlighting
+## Showing example code
+
+### Code blocks
+```rest
+.. code-block:: language
+
+   code
+```
+
+### Inline code block with syntax highlighting
 First define a custom role. e.g.:
 
 ```rest

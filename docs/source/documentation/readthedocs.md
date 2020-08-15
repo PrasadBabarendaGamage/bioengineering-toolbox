@@ -1,5 +1,18 @@
 # ReadTheDocs FAQ
 
+## Adding Github organisation repos to readthedocs
+Your ReadTheDocs account may not be able to see repositories within a Github organisation you belong. To address this issue:
+1. If you have not already done so, connect your github account to ReadTheDocs by logging into ReadTheDocs and click sign-in via github.
+2. Go to your github account settings page.
+3. Select :guilabel:`Applications` from the left hand side menu.
+4. Click on the :guilabel:`Read The docs Community` row.
+5. Under the `Organisation access` section, click the :guilabel:`grant` button next to the organisation that you want ReadTheDocs access.
+6. Go to :guilabel:`My Projects` on ReadTheDocs.org.
+7. Click :guilabel:`Import a Project`.
+8. CLick the refresh button.
+9. Navigate through the repositories and you should see repositories under your
+github organisation (note that your organisation may not show on the organisation filter list, however, they will show up in the list of repositories section of the page.) 
+
 ## Troubleshooting
 
 ### contents.rst not found

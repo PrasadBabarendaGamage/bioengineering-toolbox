@@ -90,6 +90,7 @@ Change permissions :
   .. code-block:: bash
 
     du -sh folder
+    du -h -d1 folder # Only the top level directories.
 
 `Print all environmental variables <http://askubuntu.com/questions/275965/how-to-list-all-variables-names-and-their-current-values>`_
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -118,6 +119,8 @@ Change permissions :
   .. code-block:: bash
 
     sudo systemctl restart NetworkManager
+    # or
+    sudo service network-manager restart
 
 
   This is useful if you VPN disconnects and you get the following error when

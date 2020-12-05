@@ -17,6 +17,8 @@ following fields:
     5. Options: `-E -a` (This options forces rebuild of html)
 5. Click ok.
 
+## [Table width fix for Read the Docs Sphinx theme](https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html)
+
 ## Sphinx and Jupyter notebooks
 ### Linking to Jupyter notebooks in Sphinx
 https://nbsphinx.readthedocs.io/en/0.7.1/

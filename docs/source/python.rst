@@ -7,6 +7,7 @@ Python
 
   python/python
   python/python_bindings
+  python/virtualenv
   python/pandas
   python/jupyter_notebooks
   python/matplotlib

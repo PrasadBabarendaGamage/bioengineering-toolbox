@@ -13,6 +13,7 @@ Welcome to bioengineering-toolbox's documentation!
 
    code_development
    documentation
+   deployment
    fem
    file_formats
    linux

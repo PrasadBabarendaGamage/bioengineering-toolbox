@@ -15,6 +15,7 @@ vertex.toArray()
 var axesHelper = new THREE.AxesHelper( 5 );
 scene.add( axesHelper );
 ```
+## [Find absolute position of a vertex](https://stackoverflow.com/questions/11495089/how-to-get-the-absolute-position-of-a-vertex-in-three-js)
 
 ## View point cloud
 View vertices of a point cloud.
@@ -96,6 +97,11 @@ scene.add( nodeMesh );
 ```javascript
 // Import stats.
 import * as Stats from 'stats.js';
+```
+
+## [Get camera world coordinates](https://stackoverflow.com/questions/15696963/three-js-set-and-read-camera-look-vector/)
+```javascript
+let vector = camera.getWorldDirection();
 ```
 
 ## Enable or disable orbit controls

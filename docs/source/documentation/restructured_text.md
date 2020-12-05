@@ -134,7 +134,21 @@ This then allows use inline code e.g.
 Here is some awesome bash code :bash:`a = b + c`.
 ```
 
-[Add images](http://sphinx-doc.org/rest.html?highlight=image#images)
+### Forcing syntax highlighting for a code snippet.
+e.g. for a partial snippet of json code:
+
+ ```rest
+.. code-block:: json-object
+    :force:
+    
+     "scripts": {
+       "build": "webpack",
+       "serve": "webpack-dev-server"
+     },
+```
+
+
+## [Add images](http://sphinx-doc.org/rest.html?highlight=image#images)
 
 Use the image directive, for example:
 

@@ -217,7 +217,7 @@ Object.values(person)[0]
 // For each value in array.
 const foobar = [1, 2, 3];
 for (const value of foobar) {
-  console.log(value, element);
+  console.log(value);
 }
 // For each index and value in array.
 const foobar = ['A', 'B', 'C'];
@@ -280,6 +280,8 @@ typedArray1.set([1, 2, 3], 3);
 ```
 - Modules are deferred, and only run after a document is loaded
 
+## [Mastering javascript callbacks/bind/apply/call](https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/)
+
 ## [Fetching](https://dev.to/shoupn/javascript-fetch-api-and-using-asyncawait-47mp)
 ```javascript
 addLandmarks() {
@@ -308,4 +310,17 @@ class Test {
     document.removeEventListener('mouseup', this.onMouseUp);
   }
 }
+```
+
+## Alerts
+```javascript
+alert('Hi');
+```
+
+## [Disable right-click context menu](https://www.codeinwp.com/snippets/disable-right-click-context-menu/)
+```javascript
+window.addEventListener('contextmenu', function (e) { 
+  // do something here... 
+  e.preventDefault(); 
+}, false);
 ```

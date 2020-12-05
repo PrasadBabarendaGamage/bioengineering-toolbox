@@ -6,6 +6,10 @@ http://book.pythontips.com/en/latest/index.html
 
 Click on the links in the headings for more information.
 
+## Python virtual environments
+- [Data camp tutorial](https://www.datacamp.com/community/tutorials/virtual-environment-in-python)
+- [Real Python tutorial](https://realpython.com/python-virtual-environments-a-primer/)
+
 ## Strings
 ```python
 # Replace substring in string (where the item in [] is an optional argument.
